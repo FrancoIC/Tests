@@ -1,17 +1,43 @@
-p {
-  float: right;
+body {
+  background: #f06d06;
+  font-size: 80%;
+  padding: 20px;
 }
 
-p {
-  cursor: pointer;
-  margin-right: 30px;
-  padding: 8px 18px;
-  border: 1px solid #204156;
-  position: relative;
 
+main {
+  background: black;
+  height: 200px;
+  width: 60%;
+  margin-bottom: 0;
+  margin-top: 190px;
+  margin-left: 270px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  resize: both;
+  overflow: auto;
+}
 
+main div {
+  background: #dc143c;
+  color: white;
+  width: 50%;
+  padding: 20px;
+  resize: both;
+  overflow: auto;
+  font-size: 40px;
+}
 
+div:hover {
+	cursor: pointer;
+	color: #7fffd4;
+	background: #deb887; 
+}
 
-
-p a:active {
-  top: 2px;
+div:active {
+	margin-top: 4px;
+	color: #ffefd5;
+	background: #b22222; 
+}
