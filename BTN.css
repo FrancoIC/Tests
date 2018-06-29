@@ -2,42 +2,42 @@ body {
   background: #f06d06;
   font-size: 80%;
   padding: 20px;
+  padding-left: 500px
 }
 
 
 main {
   background: black;
-  height: 200px;
-  width: 60%;
-  margin-bottom: 0;
-  margin-top: 190px;
-  margin-left: 270px;
-  margin-right: 50px;
+  height: 388px;
+  width: 315px;
+  margin-bottom: 230px;
+  margin-top: 100px;
+  margin-left: 0px;
+  margin-right: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
-  resize: both;
   overflow: auto;
 }
 
 main div {
   background: #dc143c;
   color: white;
-  width: 50%;
+  width: 231px;
+  height: 310px;
   padding: 20px;
-  resize: both;
   overflow: auto;
   font-size: 40px;
 }
 
 div:hover {
 	cursor: pointer;
-	color: #90ee90;
-	background: #deb887; 
+	color: #ffefd5;
+	background: #b22222; 
 }
 
 div:active {
-	margin-top: 4px;
-	color: #ffefd5;
-	background: #b22222; 
+	margin-top: 10px;
+	color: #deb887;
+	background: #a52a2a; 
 }
